@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenrication form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form-conteiner">
+
+            <h2>SingIn</h2>
+
+            <form id="singin-form" onsubmit="createPost(event)">
+                <div class="input-group">
+                    <label for="title">Username</label>
+                    <input name="title" type="text" id="title-input" required>
+                </div>
+                <div class="input-group">
+                    <label for="description">Password</label>
+                    <input  name="description" type="text" id="description-input">
+                </div>
+                <button class="submit-btn" type="submit">Add</button>
+            </form>
+        
+        </div>
+    </div>
+
+    <script src="js/post.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color:#333 ;
+    position: fixed;
+    top: 0;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+.sity-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-links li{
+    margin-left: 1em;
+}
+.menu-links a{
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+}
+
+.menu-links a:hover{
+    background-color:rgb(193, 100, 42);
+    border-radius: 4px;
+}
+
+/* Posts */
+
+main {
+    margin-top: 5em;
+    padding: 2em;
+}
+
+.posts{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.posts .title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts h1{
+    font-size: 2em;
+}
+
+.post {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.post h2{
+    margin: 0;
+}
+.post-main{
+    font-style: italic;
+    color:#555;
+}
+.description{
+    margin-bottom: 15px;
+}
+
+.reaction{
+    font-weight: bold;
+}
+
+.date{
+    font-style: italic;
+    color:#555;
+}
+
+.post-owner{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+.post-btn .reaction-btn{
+    background-color: rgb(240, 128, 58);
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.post-btn .reaction-btn:hover{
+    background-color: rgb(193, 100, 42);
+}
+
+.posts hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comment-form form button{
+    margin-top: 5px;
+    background-color: rgb(240, 128, 58);
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.comment p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+.comment button{
+    background-color: rgb(177, 177, 177);
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.7em;
+}
+
+.show-more-btn{
+    width: 100%;
+    margin-top: 18px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.7em;
+}
+
+.comment-input{
+    width: 100%;
+    resize: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #afafaf;
+}

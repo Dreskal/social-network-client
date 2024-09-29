@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenrication form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form-conteiner">
+
+            <h2>SingUp</h2>
+
+            <form id="singup-form" onsubmit="onSingUp(event)">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input name="username" type="text" id="username-input" required>
+                </div>
+                <div class="input-group">
+                    <label for="name">Password</label>
+                    <input name="name" type="text" id="name-input" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Password</label>
+                    <input name="email" type="email" id="email-input" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input name="password" type="password" id="password-input" required>
+                </div>
+                <button class="submit-btn" type="submit">Sing in</button>
+            </form>
+            <a href="SingIn.html">Go To SingIn</a>
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>
